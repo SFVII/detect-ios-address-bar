@@ -17,7 +17,7 @@ export default class iOSUIOverlayDetector extends Emitter {
     }, interval);
 
     this.applyMode = () => {
-      if (this.__static_mode != this.mode) {
+      if (this.__static_mode !== this.mode) {
         this.updateStaticMode();
         this.__behaviourDedtected = true;
         this.emit('update', this.mode);

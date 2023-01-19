@@ -63,5 +63,31 @@ export default [
         mode: 'overlayed'
       }
     ]
+  },
+  {
+    models: ['iPhone 13', 'iPhone 13 Pro Max'],
+    cases: [
+      {
+        detect: () => (window.screen.height - window.innerHeight) == 181,
+        mode: 'collapsed'
+      },
+      {
+        detect: () => (window.screen.height - window.innerHeight) == 99,
+        mode: 'overlayed'
+      }
+    ]
+  },
+  {
+    models: ['iPhone 14', 'iPhone 14 Pro Max'],
+    cases: [
+      {
+        detect: () => (window.screen.height - window.innerHeight) == 181,
+        mode: 'collapsed'
+      },
+      {
+        detect: () => (window.screen.height - window.innerHeight) == 99,
+        mode: 'overlayed'
+      }
+    ]
   }
 ]

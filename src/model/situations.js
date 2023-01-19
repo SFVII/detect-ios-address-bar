@@ -68,7 +68,7 @@ export default [
     models: ['iPhone 13', 'iPhone 13 Pro Max'],
     cases: [
       {
-        detect: () => (window.screen.height - window.innerHeight) == 181,
+        detect: () => (window.screen.height - window.innerHeight) == 182,
         mode: 'collapsed'
       },
       {
@@ -81,7 +81,7 @@ export default [
     models: ['iPhone 14', 'iPhone 14 Pro Max'],
     cases: [
       {
-        detect: () => (window.screen.height - window.innerHeight) == 193,
+        detect: () => (window.screen.height - window.innerHeight) == 192,
         mode: 'collapsed'
       },
       {

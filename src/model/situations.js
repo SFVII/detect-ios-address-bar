@@ -81,11 +81,11 @@ export default [
     models: ['iPhone 14', 'iPhone 14 Pro Max'],
     cases: [
       {
-        detect: () => (window.screen.height - window.innerHeight) == 181,
+        detect: () => (window.screen.height - window.innerHeight) == 193,
         mode: 'collapsed'
       },
       {
-        detect: () => (window.screen.height - window.innerHeight) == 99,
+        detect: () => (window.screen.height - window.innerHeight) == 111,
         mode: 'overlayed'
       }
     ]
